@@ -1,0 +1,41 @@
+:root{
+    --purple: #6C4AB6;
+    --lightpurple: #8d72e1;
+    --blue:#8d9eff;
+    --lightblue:#b9e0ff;
+}
+body{
+    scroll-behavior:auto
+}
+.navbar{
+    background-color: var(--purple);
+}
+.custom-btn{
+    background-color: var(--blue);
+}
+.custom-btn:hover{
+    background-color: var(--lightpurple);
+}
+.carousel-item img{
+    height: 300px;
+}
+.newsletter{
+    background-color: var(--blue);
+}
+.card{
+    background-color: var(--lightpurple);
+}
+.offers .card:hover{
+    transform: scale(1.05);
+}
+.gaming{
+    background-color: var(--lightpurple);
+}
+.offline-store{
+    background-color: var(--lightpurple);
+}
+@media(min-width: 768px){
+    .news-input{
+        width: 50%;
+    }
+}
