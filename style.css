@@ -5,7 +5,7 @@
     --lightblue:#b9e0ff;
 }
 body{
-    scroll-behavior:auto
+    scroll-snap-type: y;
 }
 .navbar{
     background-color: var(--purple);
